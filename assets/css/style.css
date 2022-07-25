@@ -16,7 +16,7 @@ header{
     background-color: #21201f;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items:center;
     position: sticky;
     position: -webkit-sticky;
@@ -28,13 +28,17 @@ header h1{
     margin: 0;
     font-size: 30px;
     text-align: center;
-    background-color: #ef6817;
     padding: 20px;
 }
 
 header h1 a{
     text-decoration: none;
-    color: #21201f;
+    color: #727271;
+}
+
+header h1 a:hover{
+    border-radius: 15px;
+    text-shadow: 0 0 10px #ef6817;
 }
 
 header nav{
@@ -52,7 +56,7 @@ header nav ul{
 header nav ul li a{
     padding: 0 30px;
     font-weight: lighter;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     text-decoration: none;
     color: #727271;
 }
@@ -68,6 +72,8 @@ header nav ul li a:hover{
 
 section {
     padding: 30px;
+    width: 100%;
+    margin: auto 0;
 }
 
 /* All Section's Styling End */
@@ -79,25 +85,17 @@ section {
     padding: 10px;
     color: #727271;
     background-color: #21201f;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 /* Section Title Styling End */
 
 /* About Me Styling Start */
 
-#about-me{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .bio{
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 20px 0;
     flex: 1;
     background:#21201f;
     color:#727271;
@@ -109,7 +107,7 @@ section {
 
 .bio div{
     
-    padding: 50px;
+    padding: 80px 50px;
     line-height: 1.3;
     
 }
@@ -128,9 +126,47 @@ section {
     font-size: 17px;
 }
 
+/* About Me Styling End */
 
+/* My Work Styling Start */
 
+#my-work article{
+display: flex;
+justify-content:space-evenly;
+margin: auto;
+flex: 1;
+background:#21201f;
+color:#727271;
+}
 
+.work{
+    padding: 10px;
+    background-color: #21201f;
+    color: #727271;
+    width: 50%;
+}
+.work h3 a{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: #727271;
+    text-decoration: none;
+}
 
+.work h3 a:hover{
+    border-radius: 15px;
+    text-shadow: 0 0 10px #ef6817;
+}
 
+.work img{
+    padding: 10px 0px;
+}
 
+.work p{
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+/* My Work Styling End */
+
+/* Technical Skills Styling Start */
