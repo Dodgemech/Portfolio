@@ -216,4 +216,122 @@ header nav ul li a:hover{
 
 /* Technical Skills Styling Start */
 
+#technical-skills{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:row-reverse;
+    justify-content: space-between;
+}
+
+#technical-skills div{
+    border-left:3px solid #66fcf1;
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+#technical-skills article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 20px;
+    flex: 2;
+}
+
+#technical-skills article ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#technical-skills article ul li{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1f2833;
+    margin-right: 30px;
+}
+
+#technical-skills article ul li a{
+    text-decoration: none;
+    color: #66fcf1;
+    font-size: 22px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#technical-skills article ul li a:hover{
+    border-radius: 15px;
+    text-shadow: 0 0 10px #45a29e;
+}
+
+/* Technical Skills Style End */
+
+/* Contact Info Style Start */
+
+#contact-info{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact-info div{
+    border-right:3px solid #66fcf1;
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 10px;
+    margin: 0 0 0 20px;
+}
+
+#contact-info article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2833;
+    padding: 20px;
+}
+
+#contact-info article address{
+    color: #c5c6c7;
+    line-height: 1.3;
+    font-size: 17px;
+}
+
+#contact-info article address a{
+    text-decoration: none;
+    color: #66fcf1;
+}
+
+#contact-info article address a:hover{
+    border-radius: 15px;
+    text-shadow: 0 0 10px #45a29e;
+}
+
+/* Contact Info Styling End */
+
+/* Footer Styling Start */
+
+footer{
+    padding: 20px 35px;
+    background-color: #1f2833;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h2{
+    color: #66fcf1;
+}
+ 
+/* Footer Styling End */
+
 
