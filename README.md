@@ -1,5 +1,5 @@
 # My Portfolio
-These contains contain information about me and my work as i continue to progress through coding boot camp.
+This portfolio contains contain information about me and my work as i continue to progress through coding boot camp.
 
 ## User Story
 ```
