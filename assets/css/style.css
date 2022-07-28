@@ -135,12 +135,13 @@ header nav ul li a:hover{
 }
 
 #my-work div{
-    width: 50%;
+    width: 25%;
     border-right:3px solid #66fcf1;
     background-color: #1f2833;
     color: #66fcf1;
     padding: 10px;
     margin-left: 20px;
+    
 }
 
 #my-work article{
@@ -151,11 +152,13 @@ header nav ul li a:hover{
     margin: 0 auto;
 }
 
+
 #my-work article figure{
     font-size: 17px;
     line-height: 1.3;
     padding: 20px;
 }
+
 
 .work-horiseon{
     display: flex;
@@ -168,22 +171,13 @@ header nav ul li a:hover{
     color: #c5c6c7;
 }
 
-.work-horiseon h3 a{
-    text-decoration: none;
-    color: #66fcf1;
-    font-size: 22px;
-    padding: 10px 0;
-}
-
-.work-horiseon h3 a:hover{
-    border-radius: 15px;
-    text-shadow: 0 0 10px #45a29e;
-}
-
-.work-horiseon img{
+.work-horiseon a img{
     width: 50%;
-    height: 50%;
-    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.work-horiseon a img:hover{
+    box-shadow: 0 0 10px #45a29e;
 }
 
 .work-run-buddy{
@@ -196,21 +190,16 @@ header nav ul li a:hover{
     color: #c5c6c7;
 }
 
-.work-run-buddy h3 a{
-    text-decoration: none;
-    color: #66fcf1;
-    font-size: 22px;
-    padding: 10px 0;
+.work-run-buddy a img{
+    width: 75%;
+    margin: 20px 0;
+
 }
 
-.work-run-buddy h3 a:hover{
-    border-radius: 15px;
-    text-shadow: 0 0 10px #45a29e;
+.work-run-buddy a img:hover{
+    box-shadow: 0 0px 10px#45a29e;
 }
 
-.work-run-buddy img{
-    padding: 10px 0;
-}
 
 /* My Work Styling End */
 
@@ -230,6 +219,7 @@ header nav ul li a:hover{
     color: #66fcf1;
     padding: 10px;
     margin-left: 20px;
+    width: 25%;
 
 }
 
@@ -333,5 +323,20 @@ footer h2{
 }
  
 /* Footer Styling End */
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    #technical-skills article ul li{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #contact-info article{
+        margin-left: 20px;
+    }
+}
+
 
 
