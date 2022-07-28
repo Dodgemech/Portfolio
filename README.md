@@ -2,12 +2,15 @@
 These contains contain information about me and my work as i continue to progress through coding boot camp.
 
 # User Story
+
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 # Acceptance Criteria
+
 requirements of this project are written below...
+
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
