@@ -1,14 +1,14 @@
-## My Portfolio
+# My Portfolio
 These contains contain information about me and my work as i continue to progress through coding boot camp.
 
-# User Story
+## User Story
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
-# Acceptance Criteria
+## Acceptance Criteria
 
 requirements of this project are written below...
 
@@ -28,9 +28,9 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-# GitPages Link
+## GitPages Link
 
 
 
-# Screenshot
+## Screenshot
 
