@@ -30,7 +30,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## GitPages Link
 
-
+https://dodgemech.github.io/Portfolio/
 
 ## Screenshot
 
+![_C__Users_Armym_Documents_bootcamp-stuff_homeworks_portfolio_index html](https://user-images.githubusercontent.com/107086158/181425294-976fa535-a5aa-467d-b7fe-3679bcb8a275.png)
