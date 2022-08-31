@@ -166,7 +166,7 @@ header nav ul li a:hover{
     flex-flow: column;
     margin-left: 20px;
     margin-right: 10px;
-    flex: 1.5;
+    flex: 1;
     background-color: #1f2833;
     color: #c5c6c7;
 }
@@ -185,7 +185,7 @@ header nav ul li a:hover{
     justify-content: space-between;
     flex-flow: column;
     margin-left: 10px;
-    flex: 1;
+    flex: 1.5;
     background-color: #1f2833;
     color: #c5c6c7;
 }
